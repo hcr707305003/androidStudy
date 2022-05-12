@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="mainText" />
+    <item type="id" name="num1" />
+    <item type="id" name="num2" />
+    <item type="id" name="guide1" />
+    <item type="id" name="guide2" />
+    <item type="id" name="finger1" />
+    <item type="id" name="finger2" />
+    <item type="id" name="goToNext" />
+    <item type="id" name="layoutTop" />
+    <item type="id" name="ContentView" />
+    <item type="id" name="goToPermission" />
+</resources>

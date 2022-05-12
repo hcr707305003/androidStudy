@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="replaceflag_colorprimary">#F2F3F3</color>
+    <color name="replaceflag_colorprimarydark">#F2F3F3</color>
+    <color name="replaceflag_coloraccent">#F2F3F3</color>
+
+    <color name="replaceflag_color1">#42B0EF</color>
+    <color name="replaceflag_color2">#E0C26E</color>
+    <color name="replaceflag_color3">#6A6C6F</color>
+    <color name="replaceflag_color4">#505255</color>
+    <color name="replaceflag_color5">#F35652</color>
+    <color name="replaceflag_color6">#F2F3F3</color>
+    <color name="replaceflag_color7">#00AEEF</color>
+    <color name="replaceflag_dfhdfhdfghjsdfgdfbrte">#00AEEF</color>
+    <color name="replaceflag_coloraccent1">#ff18a078</color>
+    <color name="replaceflag_coloraccent2">#4d18a078</color>
+    <color name="replaceflag_coloraccent3">#ffe76f2f</color>
+
+    <color name="replaceflag_coloraccent4">#8B413C</color>
+    <color name="replaceflag_coloraccent5">#97271F</color>
+
+    <color name="TPTextLightPrimary">#d6000000</color>
+    <color name="BrightGray">#fff1f1f1</color>
+    <color name="white">#ffffffff</color>
+    <color name="TPAppPrimaryLight">#ffe76f2f</color>
+</resources>

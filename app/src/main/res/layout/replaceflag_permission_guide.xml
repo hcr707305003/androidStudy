@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ContentView"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:adjustViewBounds="true"
+        android:src="@drawable/replaceflag_runtime_permission_guide"
+        app:layout_constraintBottom_toTopOf="@id/goToPermission"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/goToPermission"
+        style="@style/RoundCornerButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20.0dip"
+        android:text="つぎへ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ContentView"
+        app:layout_constraintVertical_weight="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

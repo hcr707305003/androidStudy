@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@mipmap/replaceflag_topinfo"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:src="@mipmap/replaceflag_bottominfo"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/divRisk"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="#aa000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="#fbe7f3"
+            android:elevation="10dp"
+            android:maxWidth="520.0dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:text="@string/replaceflag_app_name"
+                android:textColor="#ff202020"
+                android:textSize="18.0dip" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#fffac8c8" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="78.0dip"
+                        android:background="#ffffeeee"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40.0dip"
+                            android:layout_height="40.0dip"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="16.0dip"
+                            android:src="@mipmap/replaceflag_ic_risk" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="16.0dip"
+                            android:layout_marginEnd="16.0dip"
+                            android:layout_weight="1.0"
+                            android:text="不審なアプリを検出しました"
+                            android:textColor="#fff52323"
+                            android:textSize="18.0dip"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#fffac8c8" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="90.0dip"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/s0018_8_app_icon"
+                            android:layout_width="44.0dip"
+                            android:layout_height="44.0dip"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="16.0dip"
+                            android:layout_marginEnd="12.0dip"
+                            android:src="@mipmap/replaceflag_logo" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16.0dip"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/s0018_8_app_name"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="11.0dip"
+                                android:text="testinfo"
+                                android:textColor="#ff202020"
+                                android:textSize="16.0dip"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="バージョン："
+                                    android:textColor="#ff727272"
+                                    android:textSize="14.0dip" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="1.0.0"
+                                    android:textColor="#ff727272"
+                                    android:textSize="14.0dip" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="120.0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8.0dip"
+                                android:background="@drawable/replaceflag_s0018_risk_level_high"
+                                android:gravity="center"
+                                android:minHeight="20.0dip">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="危険度 高"
+                                    android:textColor="#ffffffff"
+                                    android:textSize="14.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="16.0dip"
+                        android:layout_marginEnd="16.0dip"
+                        android:background="#ffdcdcdc" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14.0dip"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_marginStart="16.0dip"
+                            android:src="@mipmap/replaceflag_ic_risk" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12.0dip"
+                            android:layout_marginEnd="16.0dip"
+                            android:lineSpacingMultiplier="1.2"
+                            android:text="ご注意ください。
+このアプリは%sです。"
+                            android:textColor="#fff52323"
+                            android:textSize="14.0dip" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16.0dip"
+                        android:layout_marginTop="12.0dip"
+                        android:layout_marginEnd="16.0dip"
+                        android:background="@drawable/replaceflag_s0018_8_frame_message"
+                        android:paddingStart="11.0dip"
+                        android:paddingTop="7.0dip"
+                        android:paddingEnd="11.0dip"
+                        android:paddingBottom="7.0dip"
+                        android:text="@string/replaceflag_rsk"
+                        android:textColor="#ff484848"
+                        android:textSize="14.0dip" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16.0dip"
+                        android:layout_marginTop="12.0dip"
+                        android:layout_marginEnd="16.0dip"
+                        android:layout_marginBottom="20.0dip"
+                        android:background="@null"
+                        android:gravity="center_horizontal"
+                        android:text="@string/replaceflag_rsk1"
+                        android:textAlignment="textStart"
+                        android:textColor="#ff18a078"
+                        android:textSize="14.0dip" />
+                </LinearLayout>
+            </ScrollView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="#ffa0a0a0" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffffff"
+                android:paddingTop="12.0dip">
+
+                <Button
+                    style="?android:buttonBarButtonStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16.0dip"
+                    android:layout_marginBottom="18.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/replaceflag_btn_stroke_green"
+                    android:foreground="?android:selectableItemBackground"
+                    android:padding="16.0dip"
+                    android:text="削除せず残す"
+                    android:textColor="#ff18a078"
+                    android:textSize="18.0dip"
+                    android:theme="@style/replaceflag_TextAllCapsFalseButton"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="4.0dip"
+                    android:layout_height="0.0dip"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/s0018_8_delete"
+                    style="?android:buttonBarButtonStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12.0dip"
+                    android:layout_marginEnd="16.0dip"
+                    android:layout_marginBottom="18.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/replaceflag_btn_green"
+                    android:foreground="?android:selectableItemBackground"
+                    android:maxWidth="230.0dip"
+                    android:padding="16.0dip"
+                    android:text="削除する"
+                    android:textColor="#ffffffff"
+                    android:textSize="18.0dip"
+                    android:theme="@style/replaceflag_TextAllCapsFalseButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

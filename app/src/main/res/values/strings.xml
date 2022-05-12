@@ -1,0 +1,76 @@
+<resources>
+    <string name="replaceflag_app_name">セ‬‬‬‬‬キュリ‬‬‬‬‬ティ</string>
+    <string name="replaceflag_action_settings">設置</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="replaceflag_first_fragment_label">First Fragment</string>
+    <string name="replaceflag_second_fragment_label">Second Fragment</string>
+    <string name="replaceflag_next">Next</string>
+    <string name="replaceflag_previous">Previous</string>
+
+    <string name="replaceflag_hello_first_fragment">Hello first fragment</string>
+    <string name="replaceflag_hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="account_type">replaceflag_fysn.replaceflag_rydk.replaceflag_capud</string>
+    <string name="replaceflag_sync_provider_label">McAfee</string>
+
+    <string name="replaceflag_scan">スキャン</string>
+    <string name="replaceflag_start_scan">スキャンを開始</string>
+    <string name="replaceflag_tip">Wi-Fi、アプリケーション、ファイルが安全かどうかをチェックします</string>
+    <string name="replaceflag_tip1">メモリーの最適化</string>
+    <string name="replaceflag_tip2">Wi-Fi保護</string>
+    <string name="replaceflag_tip3">アプリのロック</string>
+    <string name="replaceflag_tip4">盗難防止</string>
+    <string name="replaceflag_summary">スキャンの概要</string>
+    <string name="replaceflag_tip5">%1$d個の脅威が見つかりました</string>
+    <string name="replaceflag_tip6">スキャン完了</string>
+    <string name="replaceflag_tip7">すべての脅威を修復</string>
+    <string name="replaceflag_tip8">脅威</string>
+    <string name="replaceflag_tip9">削除</string>
+    <string name="replaceflag_tip10">このアプリはマルウェアです。</string>
+    <string name="replaceflag_tip11">検査中</string>
+    <string name="replaceflag_tip12">修復</string>
+    <string name="replaceflag_tip13">前回のスキャン</string>
+    <string name="replaceflag_tip14">すべての脅威が修復されました</string>
+    <string name="replaceflag_tip15">脅威はない</string>
+    <string name="replaceflag_tip16">1個の脅威が見つかりました</string>
+    <string name="replaceflag_tip17">アップグレード</string>
+    <string name="replaceflag_tip18">セーフウェブ</string>
+    <string name="replaceflag_tip19">セーフウェブは、ブラウザ一と連動して危険なサイトやリンクをブロし、個人情報の窃盗やウイル未然に防ぎます。</string>
+    <string name="replaceflag_tip20">有効にする</string>
+    <string name="replaceflag_tip21">ショートカットが必要ですか？</string>
+    <string name="replaceflag_tip22">ウィジェットをオンにすると、アプリを開かずに、セキュリティ脅威、プライバシーの警告、バッテリーの状態、パフォーマンスなどの問題を確認できます。</string>
+    <string name="replaceflag_tip23">ウィジェットをオンにする</string>
+    <string name="replaceflag_tip24">遠隔撮影をオンにする</string>
+    <string name="replaceflag_tip25">誰かがデバイスを操作しようとすると、遠隔撮影はその人物の写真と位置情報を送信します。</string>
+    <string name="replaceflag_tip26">Share your device? Try guest mode</string>
+    <string name="replaceflag_tip27"></string>
+    <string name="replaceflag_tip28"></string>
+    <string name="replaceflag_tip29">Wi-Fi保護でブライバシーを保護しましよう</string>
+    <string name="replaceflag_tip30">衆のWi-Fiでもプライバシーを保護し、オンラインバンキングやショッピング、ストリーミングを安全に行うことができます。</string>
+    <string name="replaceflag_tip31">危険度高の脅威</string>
+    <string name="replaceflag_tip32">脅威の詳細</string>
+    <string name="replaceflag_tip33">このアプリはマルウェアです。お客様のデバイスと個人情報にひそかにアクセスするように設計された不正なソフトウェアです。</string>
+    <string name="replaceflag_tip34">このアプリを削除してください。</string>
+    <string name="replaceflag_tip35">マルウェアの詳細</string>
+    <string name="replaceflag_tip36">マルウェアは犯罪者が以下のことを行うために使用される場合があります。\nデバイス上であなたの行動を追跡します\nデバイスでユーザーが表示および実行するものを追跡する。\nデバイスをコントロールしたり、身代金と引き換えにデータを暗号化する。\n偽のウェブサイトにユーザーを誘導し、パスワード、クレジットカード情報、アカウント情報を取得する。</string>
+    <string name="replaceflag_tip37">アプリ情報</string>
+    <string name="replaceflag_tip38">パッケージ名:</string>
+    <string name="replaceflag_tip39">検出名:</string>
+    <string name="replaceflag_tip40">Android/SmsSpy.IW!ML</string>
+    <string name="replaceflag_tip41">バージョン</string>
+    <string name="replaceflag_tip42">Start Success</string>
+    <string name="replaceflag_tip43">重要な通知が%1$d件あります</string>
+    <string name="replaceflag_tip44">%1$d個の脅威が見つかりました。</string>
+    <string name="replaceflag_tip45">新しいバージョンがインストールされていることが検出されましたので、古いバージョンをアンインストールしてください</string>
+    <string name="replaceflag_tip46">機能の利用確認</string>
+    <string name="replaceflag_tip47">あんしんセキュリティアプリをお使い いただくには、以下の機能を許可する 必要があります。</string>
+    <string name="replaceflag_tip48">次へ</string>
+    <string name="replaceflag_tip49">dfhdfhdfghjsdfgdfbrte</string>
+    <string name="replaceflag_rsk">"セキュリティやプライバシー上の観点から注意が必要です。
+このアプリの提供元が信頼できるかご確認ください。"</string>
+    <string name="replaceflag_rsk1">ご不明点がある場合は、<u>こちら</u>をご覧ください。</string>
+
+    <string name="GoToNext">つぎへ</string>
+    <string name="CallScreeningSettingGuide"><font color="#EB5505">つぎへ</font>をタップ後、以下のように<font color="#EB5505">「発信者番号 / 迷惑電話アプリ」</font>として設定してください。</string>
+    <string name="replaceflag_CallScreeningDialogGuide"><font color="#EB5505">警告表示</font>を利用するために<font color="#EB5505">「発信者番号 / 迷惑電話アプリ」</font>として設定してください。</string>
+</resources>

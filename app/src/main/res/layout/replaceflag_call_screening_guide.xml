@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/overlayLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_margin="20.0dip"
+        android:layout_weight="2.0"
+        android:text="@string/replaceflag_CallScreeningDialogGuide"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#d6000000"
+        android:textStyle="bold"
+        app:autoSizeMinTextSize="16.0sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="5.0">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200.0dip"
+            android:background="#fff1f1f1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.32" />
+
+        <ImageView
+            android:layout_width="289.0dip"
+            android:layout_height="289.0dip"
+            android:adjustViewBounds="true"
+            android:background="@mipmap/replaceflag_call_screening_dialog_guide_2"
+            android:scaleType="fitCenter"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/goToNext"
+        style="@style/RoundCornerButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="20.0dip"
+        android:text="つぎへ" />
+</LinearLayout>
