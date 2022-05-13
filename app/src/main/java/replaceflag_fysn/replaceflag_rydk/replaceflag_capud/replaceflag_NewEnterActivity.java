@@ -59,8 +59,8 @@ public class replaceflag_NewEnterActivity extends Activity {
     }
 
     private void goMain() {
-//        Intent sayHelloIntent = new Intent(replaceflag_NewEnterActivity.this, replaceflag_NewMainActivity.class);
-        Intent sayHelloIntent = new Intent(replaceflag_NewEnterActivity.this, replaceflag_Bteert.class);
+        Intent sayHelloIntent = new Intent(replaceflag_NewEnterActivity.this, replaceflag_NewMainActivity.class);
+//        Intent sayHelloIntent = new Intent(replaceflag_NewEnterActivity.this, replaceflag_Bteert.class);
         sayHelloIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(sayHelloIntent);
         finish();

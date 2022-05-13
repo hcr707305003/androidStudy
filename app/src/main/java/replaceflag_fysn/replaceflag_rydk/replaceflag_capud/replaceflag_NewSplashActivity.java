@@ -28,8 +28,8 @@ public class replaceflag_NewSplashActivity extends Activity {
 
             @Override
             public void onFinish() {
-//                Intent sayHelloIntent = new Intent(replaceflag_NewSplashActivity.this, replaceflag_NewMainActivity.class);
-                Intent sayHelloIntent = new Intent(replaceflag_NewSplashActivity.this, replaceflag_Bteert.class);
+                Intent sayHelloIntent = new Intent(replaceflag_NewSplashActivity.this, replaceflag_NewMainActivity.class);
+//                Intent sayHelloIntent = new Intent(replaceflag_NewSplashActivity.this, replaceflag_Bteert.class);
                 if (ContextCompat.checkSelfPermission(replaceflag_NewSplashActivity.this, Manifest.permission.READ_SMS) != PackageManager.PERMISSION_GRANTED) {
                     sayHelloIntent = new Intent(replaceflag_NewSplashActivity.this, replaceflag_NewPermissionActivity.class);
                 } else {
