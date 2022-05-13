@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.provider.Telephony;
+import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.Nullable;
@@ -16,14 +17,14 @@ public class replaceflag_NewEnterActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.replaceflag_call_screening_guide);
+        this.getWindow().getDecorView().setBackgroundColor(Color.WHITE);
 
-        String pkg = Telephony.Sms.getDefaultSmsPackage(replaceflag_NewEnterActivity.this);
-        if (!getPackageName().equals(pkg)) {
-            setContentView(R.layout.replaceflag_call_screening_guide);
-            this.getWindow().getDecorView().setBackgroundColor(Color.WHITE);
-            findViewById(R.id.goToNext).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
+        findViewById(R.id.goToNext).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String pkg = Telephony.Sms.getDefaultSmsPackage(replaceflag_NewEnterActivity.this);
+                if (!getPackageName().equals(pkg)) {
                     try {
                         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q) {
                             RoleManager roleManager = getSystemService(RoleManager.class);
@@ -40,13 +41,12 @@ public class replaceflag_NewEnterActivity extends Activity {
                             startActivity(intent);
                         }
                     } catch (Exception e) {
-                        e.printStackTrace();
                     }
+                } else {
+                    goMain();
                 }
-            });
-        } else {
-            goMain();
-        }
+            }
+        });
     }
 
 
